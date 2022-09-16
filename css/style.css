@@ -83,6 +83,8 @@
       8.6 Min height 600px
       8.7 Min height 700px
 
+      9 Paragraph
+
     
     
 /*-------------------------------------------------------------------------------
@@ -700,6 +702,7 @@ label.error{
   display: inline-block;
 }
 
+
 a.brand:hover,
 a.brand:focus{
   text-decoration: none;
@@ -718,6 +721,14 @@ a.brand:focus{
   vertical-align: top;
   margin-right: 0.65rem;
   height: 5.356rem;
+}
+
+.brand-about img{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0.65rem;
+  height: 7.356rem;
+  margin-bottom: 1.65rem;
 }
 
 .brand-info{
@@ -3619,6 +3630,7 @@ address a{
 .footer{
   color: #fff;
   line-height: 1.71;
+  padding-bottom: 3rem;
 }
 
 .footer ul{
@@ -4080,5 +4092,21 @@ address a{
 }
 
 
+/* 9 Paragraph*/
 
+.White-Text {
+  color: #f6f6f6;
+}
+
+/* 10 Banner*/
+
+.Banner-Dark-filter {
+  filter: brightness(0.5);
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
