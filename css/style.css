@@ -2629,9 +2629,33 @@ address a{
   transition: 0.3s ease;
 }
 
-.project-item:hover .project-hover-2{
-  background-color: rgba(206,224,2,0.85);
+.icon-maps {
+  width: 6%;
 }
+
+.icon-waze {
+  width: 6%;
+  float: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .icon-waze {
+    width: 20% !important;
+  float: none !important;
+  }
+
+  .icon-maps {
+    width: 20% !important;
+    margin-left: 7rem;
+  }
+
+  .mobile-map {
+    width: 100%;
+  }
+
+}
+
+
 
 .project-item:hover .project-hover-2 .project-title,
 .project-item:hover .project-hover-2 .icon-plus{
